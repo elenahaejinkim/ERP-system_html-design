@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link href="prada.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <div class="headleft"></div>
+            <div class="headmiddle"><img src="img/prada-milano-logo-traxex-gringer-750x393.jpg"></div>
+            <div class="headright">
+                <select name="Language">
+                    <option value='KR'>한국어</option>
+                    <option value='EN'>English</option>
+                </select>
+                <a href="pradaMainpage.html"><img src="img/mainhome.jpg"></a>
+                <div class="loginstatus">[Elena Kim]님 /
+                <script>
+                        function logoutClick() {
+                            alert("로그아웃 완료. 초기 화면으로 돌아갑니다.")
+                        }
+                    </script>                        
+                        <label for="logout"><a id="a2" href="pradaLogIn.html" onclick="logoutClick()" id="logout">로그아웃</a></label>
+                </div>
+            </div>
+            <div class="menubar">
+                <ul>
+                    <li>
+                        <a href="pradaOrderStatus.html">ORDER MGT</a>
+                        <ul class="sub">
+                            <li><a href="pradaOrderStatus.html">STATUS</a></li>
+                            <li><a href="#">REGISTER</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">PRODUCTION</a>
+                        <ul class="sub">
+                            <li><a href="#">LINE REGISTER</a></li>
+                            <li><a href="#">WI MGT</a></li>
+                            <li><a href="#">PROCESS MGT</a></li>
+                            <li><a href="#">LINE MGT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PRODUCT MGT</a>
+                        <ul class="sub">
+                            <li><a href="#">WAREHOUSING</a></li>
+                            <li><a href="#">DELIVERY</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BOARD</a>
+                        <ul class="sub">
+                            <li><a href="pradaIssueList.html">ISSUE LIST</a></li>
+                            <li><a href="pradaMailList.html">MY MAIL</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+
+            <div class="mainfront">
+                <div class="orderall">
+                    <p>Order-Production Management</p>
+                    <table>
+                        <tr>
+                            <th>Daily Order</th>
+                            <td>20</td>
+                            <th>재단 미작업 건</th>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <th>Daily Target</th>
+                            <td>18</td>
+                            <th>바디 미작업 건</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th>Product by Order</th>
+                            <td>8</td>
+                            <th>악세서리 미작업 건</th>
+                            <td>13</td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="orderdetail">
+                    <p>Order List</p>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>Check</th>
+                                <th>Order No.</th>
+                                <th colspan="2">Model</th>
+                                <th>Qty</th>
+                                <th colspan="2">Color</th>
+                                <th colspan="2">P.Charger1</th>
+                                <th colspan="2">P.Charger2</th>
+                                <th colspan="2">P.Charger3</th>
+                                <th>WI No.</th>
+                                <th>Order Confirm</th>
+                                <th>P.Status</th>
+                                <th>Order Date</th>
+                                <th>Due Date</th>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="checkbox" value="Y"></td>
+                                <td>AB058C3</td>
+                                <td>K12355</td>
+                                <td>Shopper 01</td>
+                                <td>500</td>
+                                <td>Pt.19-1557</td>
+                                <td>Chili Pepper</td>
+                                <td>A123</td>
+                                <td>박민수</td>
+                                <td>A124</td>
+                                <td>김기창</td>
+                                <td>A125</td>
+                                <td>배재현</td>
+                                <td>KHJ123</td>
+                                <td>
+                                    <select name="confirm">
+                                        <option value='0'> </option>
+                                        <option value='confirm' selected>Confirm</option>
+                                        <option value='pending'>Pending</option>
+                                        <option value='deny'>Deny</option>
+                                    </select>
+                                </td>
+                                <td>Body</td>
+                                <td>20/02/28</td>
+                                <td>20/05/20</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="checkbox" value="Y"></td>
+                                <td>KQ120J3</td>
+                                <td>Q12345</td>
+                                <td>Pringe Mini 02</td>
+                                <td>1000</td>
+                                <td>Pt.16-1546</td>
+                                <td>Living Coral</td>
+                                <td>A123</td>
+                                <td>박민수</td>
+                                <td>A124</td>
+                                <td>김기창</td>
+                                <td>A125</td>
+                                <td>배재현</td>
+                                <td>KHJ123</td>
+
+                                <td>
+                                    <select name="confirm">
+                                        <option value='0'> </option>
+                                        <option value='confirm' selected>Confirm</option>
+                                        <option value='pending'>Pending</option>
+                                        <option value='deny'>Deny</option>
+                                    </select>
+                                </td>
+                                <td>Accessories</td>
+                                <td>20/04/01</td>
+                                <td>20/04/30</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="checkbox" value="Y"></td>
+                                <td>AB058C3</td>
+                                <td>K12355</td>
+                                <td>Shopper 01</td>
+                                <td>900</td>
+                                <td>Black</td>
+                                <td>Black</td>
+                                <td>A123</td>
+                                <td>박민수</td>
+                                <td>A124</td>
+                                <td>김기창</td>
+                                <td>A125</td>
+                                <td>배재현</td>
+                                <td>KHJ123</td>
+                                <td>
+                                    <select name="confirm">
+                                        <option value='0' selected> </option>
+                                        <option value='confirm'>Confirm</option>
+                                        <option value='pending'>Pending</option>
+                                        <option value='deny'>Deny</option>
+                                    </select>
+                                </td>
+                                <td>-</td>
+                                <td>20/01/21</td>
+                                <td>20/06/23</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="checkbox" value="Y"></td>
+                                <td>KP759M0</td>
+                                <td>Q12005</td>
+                                <td>Clutch 04</td>
+                                <td>900</td>
+                                <td>Pt.13-1520</td>
+                                <td>Rose Quartz</td>
+                                <td>A123</td>
+                                <td>박민수</td>
+                                <td>A124</td>
+                                <td>김기창</td>
+                                <td>A125</td>
+                                <td>배재현</td>
+                                <td>KHJ123</td>
+                                <td>
+                                    <select name="confirm">
+                                        <option value='0'> </option>
+                                        <option value='confirm' selected>Confirm</option>
+                                        <option value='pending'>Pending</option>
+                                        <option value='deny' selected>Deny</option>
+                                    </select>
+                                </td>
+                                <td>-</td>
+                                <td>20/02/28</td>
+                                <td>20/05/20</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="checkbox" value="Y"></td>
+                                <td>KQ120J3</td>
+                                <td>Q12345</td>
+                                <td>Pringe Mini 02</td>
+                                <td>900</td>
+                                <td>Pt.15-0343</td>
+                                <td>Greenery</td>
+                                <td>A123</td>
+                                <td>박민수</td>
+                                <td>A124</td>
+                                <td>김기창</td>
+                                <td>A125</td>
+                                <td>배재현</td>
+                                <td>KHJ123</td>
+                                <td>
+                                    <select name="confirm">
+                                        <option value='0'> </option>
+                                        <option value='confirm' selected>Confirm</option>
+                                        <option value='pending'>Pending</option>
+                                        <option value='deny'>Deny</option>
+                                    </select>
+                                </td>
+                                <td>Finished</td>
+                                <td>20/03/01</td>
+                                <td>20/04/01</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <script>
+                        function btnClick() {
+                            alert("선택된 Order 데이터를 저장하였습니다.")
+                        }
+                    </script>                        
+                        <label for="save"><input type="button" value="Save" onclick="btnClick()" id="save">Save</label>
+                </div>
+                </div>
+            </div>
+    <div class="footer">COPYRIGHTⓒPRADA MILANO</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,481 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.headright,
+.headleft {
+    width: 20%;
+    height: 300px;
+    text-align: center;
+}
+
+.headmiddle {
+    text-align: center;
+    width: 60%;
+    height: 300px;
+}
+
+.headmiddle > img {
+    height: 150px;
+    margin-top: 50px;
+}
+
+.loginstatus a {
+    color: white;
+}
+
+.loginstatus a:hover {
+    text-decoration: none;
+    color: #F6B352;
+    font-weight: bold;
+}
+
+.head {
+    float: left;
+    height: 360px;
+    width: 1280px;
+    background: linear-gradient(to bottom, black 60%, white 85%);
+}
+
+.head > div {
+    float: left;
+}
+
+.headright > select {
+    height: 25px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px darkgray;
+}
+
+.headright > a > img {
+    height: 30px;
+
+}
+
+.content {
+    clear: left;
+    height: 900px;
+    text-align: center;
+}
+
+.loginBox > form {
+    padding-top: 300px
+}
+
+.loginBox > form > input {
+    box-shadow: 1px 1px black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 120%;
+    height: 30px;
+    width: 250px;
+}
+
+input[type=submit] {
+    display: none;
+}
+
+.loginBox label {
+    display: inline-block;
+    color: white;
+    line-height: 35px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: black;
+    box-shadow: 1px 1px gray;
+    text-shadow: 1px 1px gray;
+}
+
+.loginBox label:hover {
+    background-color: darkgray;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+.footer {
+    line-height: 250px;
+    text-align: center;
+    color: white;
+    font-size: 110%;
+    height: 200px;
+    background: linear-gradient(to top, black 20%, white);
+}
+
+.headright > div {
+    margin-top: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+.menubar {
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 2px 2px lightgray;
+    position: relative;
+}
+
+.menubar > ul {
+    padding: 0px;
+    margin: 0;
+
+}
+
+.menubar > ul > li {
+    float: left;
+    list-style-type: none;
+    width: 220px;
+}
+
+.menubar > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 130%;
+    text-shadow: -1px 1px 1px gray;
+    line-height: 60px;
+    padding-left: 15px;
+}
+
+.menubar > ul > li:hover > a {
+    color: #F6B352;
+    background-color: black;
+    line-height: 60px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.sub {
+    list-style-type: none;
+    text-align: left;
+    overflow: hidden;
+    height: 0;
+
+}
+
+.sub > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 130%;
+    text-shadow: -1px 1px 1px gray;
+    line-height: 60px;
+    display: block;
+}
+
+.sub > li > a:hover {
+    color: #F6B352;
+}
+
+li:hover > .sub {
+    height: auto;
+    background-color: black;
+    list-style-type: none;
+    transition-duration: 0.5s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mainfront {
+    width: 100%;
+    height: 650px;
+}
+
+
+.orderall > p {
+    font-size: 150%;
+    font-weight: bolder;
+    padding-top: 60px;
+    text-shadow: 1px 1px 1px #4B5054;
+}
+
+.orderall > table {
+    width: 850px;
+    height: 150px;
+    text-align: left;
+    background-color: #DEE3EB;
+    font-size: 110%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 210px;
+}
+
+.orderall > table tr {
+    padding: 10px;
+    line-height: 20px
+}
+
+.orderall > table tr > th {
+    width: 180px;
+    padding-left: 15px;
+    padding-right: 10px;
+
+}
+
+.orderall > table tr > td {
+    background-color: white;
+    width: 170px;
+    display: block;
+    line-height: 30px;
+    text-align: right;
+    margin-top: 3px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px lightgray;
+}
+
+.orderdetail > p {
+    font-size: 150%;
+    font-weight: bolder;
+    padding-top: 50px;
+    text-shadow: 1px 1px 1px #4B5054;
+}
+
+.orderdetail > div {
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.orderdetail table {
+    height: 400px;
+    width: 2000px;
+
+}
+
+.orderdetail > input {
+    display: block;
+    height: 100
+}
+
+input[type=button] {
+    display: none;
+}
+
+.orderdetail label {
+    margin-left: 1120px;
+    margin-top: 10px;
+    display: block;
+    color: white;
+    line-height: 35px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: black;
+    box-shadow: 1px 1px gray;
+    text-shadow: 1px 1px gray;
+}
+
+.orderdetail label:hover {
+    background-color: darkgray;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+.orderdetail table tr:first-child > th {
+    font-size: 120%;
+
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color: #DEE3EB;
+}
+
+.orderdetail table tr > td {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 110%;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.orderdetail table tr > td:last-child {
+    border-right: none;
+}
+
+.orderdetail table tr:first-child > th:last-child {
+    border-right: none;
+}
+
+.orderdetail table tr > td > input {
+    zoom: 1.5;
+}
+
+.orderdetail table tr > td > select {
+    font-size: 110%;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.issue table img {
+    height: 25px;
+}
+
+.issue > p {
+    font-size: 150%;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 1px #4B5054;
+}
+
+.issue > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+.issue > p > a:hover {
+    color: #F6B352;
+}
+
+.issue > div > table {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.issue > div > table th {
+    font-size: 130%;
+    border-bottom: 5px double lightgray;
+}
+
+.issue > div > table td {
+    font-size: 110%;
+    border-bottom: 1px solid lightgray;
+    margin-right: 10px;
+    height: 30px;
+}
+
+#left {
+    text-align: left;
+    padding-left: 10px;
+    width: 520px;
+}
+
+#left > a {
+    color: black;
+    text-decoration: none;
+}
+
+.mail > p {
+    font-size: 150%;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 1px #4B5054;
+}
+
+.mail > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+.mail > p > a:hover {
+    color: #F6B352;
+}
+
+.mail > div > table {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.mail > div > table {
+    margin: 0 auto;
+}
+
+.mail > div > table th {
+    font-size: 130%;
+    border-bottom: 5px double lightgray;
+}
+
+.mail > div > table td {
+    font-size: 110%;
+    border-bottom: 1px solid lightgray;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.mail table img {
+    height: 25px;
+}
+
+.notread > td {
+    color: lightgray;
+}
+
+#left > a:hover {
+    color: #F6B352;
+    text-decoration-line: underline;
+}
+
+#left:hover {
+    color: #F6B352;
+    text-decoration-line: underline;
+}
+
+.listpage > div {
+    margin: 0 auto;
+    width: 1050px;
+    height: 600px;
+    overflow-y: scroll;
+}
+.detailissue table img {
+    height: 25px;
+}
+.detailissue table{
+    width: 1050px;
+    height: 670px;
+    margin: 0 auto;
+    font-size: 110%;
+}
+.detailissue{
+    margin-top:40px;
+}
+.detailissue>table th{
+    text-shadow: 1px 1px 1px gray;
+}
+.detailissue>table td{
+    text-align: left;
+    padding-left: 30px;
+}
+.detailissue>table tr:last-child>td:last-child{
+    text-align:left;
+    padding-left: 30px;
+    overflow-y:scroll;
+    height: 530px;
+  
+}
+.detailissue>table{
+    background-color: #DEE3EB;
+    border-radius: 10px;
+}
+.detailissue>table tr>th,.detailissue>table tr>td{
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.detailissue>a{
+    margin-left: 1060px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px 1px gray;
+    display: block;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 120%;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 1px gray;
+    margin-top:15px;
+}
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link href="prada.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <div class="headleft"></div>
+            <div class="headmiddle"><img src="img/prada-milano-logo-traxex-gringer-750x393.jpg"></div>
+            <div class="headright">
+                <select name="Language">
+                    <option value='KR'>한국어</option>
+                    <option value='EN'>English</option>
+                </select>
+                <a href="pradaMainpage.html"><img src="img/mainhome.jpg"></a>
+                <div class="loginstatus">[Elena Kim]님 /
+                <script>
+                        function logoutClick() {
+                            alert("로그아웃 완료. 초기 화면으로 돌아갑니다.")
+                        }
+                    </script>                        
+                        <label for="logout"><a id="a2" href="pradaLogIn.html" onclick="logoutClick()" id="logout">로그아웃</a></label>
+                </div>
+            </div>
+            <div class="menubar">
+                <ul>
+                    <li>
+                        <a href="pradaOrderStatus.html">ORDER MGT</a>
+                        <ul class="sub">
+                            <li><a href="pradaOrderStatus.html">STATUS</a></li>
+                            <li><a href="#">REGISTER</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">PRODUCTION</a>
+                        <ul class="sub">
+                            <li><a href="#">LINE REGISTER</a></li>
+                            <li><a href="#">WI MGT</a></li>
+                            <li><a href="#">PROCESS MGT</a></li>
+                            <li><a href="#">LINE MGT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PRODUCT MGT</a>
+                        <ul class="sub">
+                            <li><a href="#">WAREHOUSING</a></li>
+                            <li><a href="#">DELIVERY</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BOARD</a>
+                        <ul class="sub">
+                            <li><a href="pradaIssueList.html">ISSUE LIST</a></li>
+                            <li><a href="pradaMailList.html">MY MAIL</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="mainfront">
+            <div class="issue">
+                <p><a href="pradaIssueList.html">Issue List</a></p>
+                <div>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>No.</th>
+                        <th>Department</th>
+                        <th>Writer</th>
+                        <th>Title</th>
+                        <th>Upload Date</th>
+                    </tr>
+                    <tr>
+                        <td><img src="img/alert.png"></td>
+                        <td>1</td>
+                        <td>네트워크 팀</td>
+                        <td>이윤수</td>
+                        <td id="left"><a href="pradaIssueListDetail.html">[긴급]시스템 사용중단 안내: 전산망 복구중입니다.</a></td>
+                        <td>2020/04/02</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>2</td>
+                        <td>구매팀</td>
+                        <td>연예진</td>
+                        <td id="left">각 부서별 4월 구매 리스트 3월 20일까지만 받겠습니다.</td>
+                        <td>2020/03/15</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>3</td>
+                        <td>대표</td>
+                        <td>이다현</td>
+                        <td id="left">3월 3일 창립기념일을 맞아 PRADA 가족 여러분들께 인사드립니다. </td>
+                        <td>2020/03/02</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/alert.png"></td>
+                        <td>4</td>
+                        <td>디자인 2팀</td>
+                        <td>변유라</td>
+                        <td id="left">MD12002 클러치 제품 변경된 디자인 안내</td>
+                        <td>2020/02/26</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="left"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="left"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="left"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="left"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="left"></td>
+                        <td></td>
+                    </tr>
+                </table>
+                    </div>
+                </div>
+            <div class="mail">
+                <p><a href="pradaMailList.html#">Mail</a></p>
+                <div>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>No.</th>
+                        <th colspan="2">Writer</th>
+                        <th>Title</th>
+                        <th>Recieve Date</th>
+                    </tr>
+                    <tr>
+                        <td><img src="img/newletter.png"></td>
+                        <td>1</td>
+                        <td>SIMONE</td>
+                        <td>차은우</td>
+                        <td id="left"><a href="pradaMailDetail.html">4/12일 예정된 생산설비 추가 관련 문의드립니다.</a></td>
+                        <td>2020/04/02</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/newletter.png"></td>
+                        <td>2</td>
+                        <td>SIMONE</td>
+                        <td>공지철</td>
+                        <td id="left">20200402_오더 추가 요청.</td>
+                        <td>2020/04/02</td>
+                    </tr>
+                    <tr class="notread">
+                        <td>읽음</td>
+                        <td>3</td>
+                        <td>PRADA</td>
+                        <td>김태평</td>
+                        <td id="left">요청하신 인사팀 안내문 첨부드립니다. </td>
+                        <td>2020/04/01</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>4</td>
+                        <td>홈앤쇼핑</td>
+                        <td>홍길동</td>
+                        <td id="left">[광고]날씬해지는 비법~~~</td>
+                        <td>2020/03/31</td>
+                    </tr>
+
+                </table>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="footer">COPYRIGHTⓒPRADA MILANO</div>
+    </div>
+</body></html>

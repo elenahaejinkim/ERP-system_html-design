@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link href="prada.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <div class="headleft"></div>
+            <div class="headmiddle"><img src="img/prada-milano-logo-traxex-gringer-750x393.jpg"></div>
+            <div class="headright">
+                <select name="Language">
+                    <option value='KR'>한국어</option>
+                    <option value='EN'>English</option>
+                </select>
+                <a href="pradaMainpage.html"><img src="img/mainhome.jpg"></a>
+                <div class="loginstatus">[Elena Kim]님 /
+                <script>
+                        function logoutClick() {
+                            alert("로그아웃 완료. 초기 화면으로 돌아갑니다.")
+                        }
+                    </script>                        
+                        <label for="logout"><a id="a2" href="pradaLogIn.html" onclick="logoutClick()" id="logout">로그아웃</a></label>
+                </div>
+            </div>
+            <div class="menubar">
+                <ul>
+                    <li>
+                        <a href="pradaOrderStatus.html">ORDER MGT</a>
+                        <ul class="sub">
+                            <li><a href="pradaOrderStatus.html">STATUS</a></li>
+                            <li><a href="#">REGISTER</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">PRODUCTION</a>
+                        <ul class="sub">
+                            <li><a href="#">LINE REGISTER</a></li>
+                            <li><a href="#">WI MGT</a></li>
+                            <li><a href="#">PROCESS MGT</a></li>
+                            <li><a href="#">LINE MGT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PRODUCT MGT</a>
+                        <ul class="sub">
+                            <li><a href="#">WAREHOUSING</a></li>
+                            <li><a href="#">DELIVERY</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BOARD</a>
+                        <ul class="sub">
+                            <li><a href="pradaIssueList.html">ISSUE LIST</a></li>
+                            <li><a href="pradaMailList.html">MY MAIL</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="mainfront">
+            <div class="issue listpage">
+               <p><a href="#">Mail</a></p>
+                <div>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>No.</th>
+                        <th colspan="2">Writer</th>
+                        <th>Title</th>
+                        <th>Recieve Date</th>
+                    </tr>
+                    <tr>
+                        <td><img src="img/newletter.png"></td>
+                        <td>1</td>
+                        <td>SIMONE</td>
+                        <td>차은우</td>
+                        <td id="left"><a href="pradaMailDetail.html">4/12일 예정된 생산설비 추가 관련 문의드립니다.</a></td>
+                        <td>2020/04/02</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/newletter.png"></td>
+                        <td>2</td>
+                        <td>SIMONE</td>
+                        <td>공지철</td>
+                        <td id="left">20200402_오더 추가 요청.</td>
+                        <td>2020/04/02</td>
+                    </tr>
+                    <tr class="notread">
+                        <td>읽음</td>
+                        <td>3</td>
+                        <td>PRADA</td>
+                        <td>김태평</td>
+                        <td id="left">요청하신 인사팀 안내문 첨부드립니다. </td>
+                        <td>2020/04/01</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>4</td>
+                        <td>홈앤쇼핑</td>
+                        <td>홍길동</td>
+                        <td id="left">[광고]날씬해지는 비법~~~</td>
+                        <td>2020/03/31</td>
+                    </tr>
+  <tr class="notread">
+                        <td>읽음</td>
+                        <td>5</td>
+                        <td>PRADA</td>
+                        <td>송은이</td>
+                        <td id="left">[전체]영업팀 회식 일정</td>
+                        <td>2020/03/20</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>6</td>
+                        <td>SIMONE</td>
+                        <td>차은우</td>
+                        <td id="left">안녕하세요. Elena님, 차은우입니다.</td>
+                        <td>2020/03/19</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>7</td>
+                        <td>SIMONE</td>
+                        <td>차은우</td>
+                        <td id="left">RE:RE:RE:신제품 생산 일정 문의</td>
+                        <td>2020/03/17</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>8</td>
+                        <td>SIMONE</td>
+                        <td>차은우</td>
+                        <td id="left">RE:RE:신제품 생산 일정 문의</td>
+                        <td>2020/03/17</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>9</td>
+                        <td>PRADA</td>
+                        <td>송은이</td>
+                        <td id="left">[전체]영업팀 회식 장소공지</td>
+                        <td>2020/03/17</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>10</td>
+                        <td>SIMONE</td>
+                        <td>차은우</td>
+                        <td id="left">RE:신제품 생산 일정 문의</td>
+                        <td>2020/03/16</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>11</td>
+                        <td>네이버쇼핑</td>
+                        <td>관리자</td>
+                        <td id="left">[광고]네이버페이를 사용해보세요!</td>
+                        <td>2020/03/15</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>12</td>
+                        <td>쿠팡</td>
+                        <td>관리자</td>
+                        <td id="left">[광고]봄맞이 할인전</td>
+                        <td>2020/03/15</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>13</td>
+                        <td>리디북스</td>
+                        <td>관리자</td>
+                        <td id="left">리디북스 자유이용권 결제 안내</td>
+                        <td>2020/03/14</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>14</td>
+                        <td>KH정보교육원</td>
+                        <td>이윤수</td>
+                        <td id="left">[전체]서동건씨 퇴실 안찍었어요.</td>
+                        <td>2020/03/13</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>15</td>
+                        <td>SIMONE</td>
+                        <td>공지철</td>
+                        <td id="left">20200310_오더 추가 요청.</td>
+                        <td>2020/03/10</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>16</td>
+                        <td>SIMONE</td>
+                        <td>공지철</td>
+                        <td id="left">RE:20200309_오더 추가 요청.</td>
+                        <td>2020/03/09</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>17</td>
+                        <td>SIMONE</td>
+                        <td>공지철</td>
+                        <td id="left">20200309_오더 추가 요청.</td>
+                        <td>2020/03/09</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>5</td>
+                        <td>PRADA</td>
+                        <td>송은이</td>
+                        <td id="left">[전체]영업팀 회식 일정</td>
+                        <td>2020/04/01</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>5</td>
+                        <td>PRADA</td>
+                        <td>송은이</td>
+                        <td id="left">[전체]영업팀 회식 일정</td>
+                        <td>2020/04/01</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>5</td>
+                        <td>PRADA</td>
+                        <td>송은이</td>
+                        <td id="left">[전체]영업팀 회식 일정</td>
+                        <td>2020/04/01</td>
+                    </tr>
+                     <tr class="notread">
+                        <td>읽음</td>
+                        <td>5</td>
+                        <td>PRADA</td>
+                        <td>송은이</td>
+                        <td id="left">[전체]영업팀 회식 일정</td>
+                        <td>2020/04/01</td>
+                    </tr>
+                    
+                    
+                </table>
+                    </div>
+                    </div>
+             
+                </div>
+                
+            </div>
+ 
+        </div>
+        <div class="footer">COPYRIGHTⓒPRADA MILANO</div>
+    
+</body></html>
